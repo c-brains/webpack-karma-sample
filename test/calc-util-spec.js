@@ -7,6 +7,6 @@ describe('add関数のテスト', () => {
         assert(calcUtil.add(1, 2) === 3)
     })
     it('1+2は4である', () => {
-        assert(calcUtil.add(1, 2) === 4)
+        assert(calcUtil.add(1, 4) === 4)
     })
 })
