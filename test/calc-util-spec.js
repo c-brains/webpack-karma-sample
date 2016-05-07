@@ -9,4 +9,4 @@ describe('add関数のテスト', function() {
     it('1+2は4である', function() {
         assert(calcUtil.add(1, 2) === 4);
     });
-})
+});
