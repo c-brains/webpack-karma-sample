@@ -1,0 +1,24 @@
+{
+  "name": "webpack-karma-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader",
+    "build": "webpack"
+  },
+  "keywords": [
+    "webpack",
+    "karma",
+    "sample",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^2.4.5",
+    "power-assert": "^1.4.0",
+    "webpack": "^1.13.0"
+  }
+}
